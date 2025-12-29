@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://taideptrai.com" method="post">
+        <h1>Form dat lich tu van hoc tap</h1>
+        <fieldset>
+            <legend>Thong tin ca nhan</legend>
+            <div>
+                <label for="hoten">Ho va ten:</label>
+                <input type="text" id="hoten" placeholder="Ngo Xuan A">
+            </div>
+            <div>
+                <label for="gio">Chon ngay gio:</label>
+                <input type="datetime-local" id="gio">
+            </div>
+            <div>
+                <label for="dichvu">Loai dich vu:</label>
+                <select name="dichvu" id="dichvu">
+                    <option value="Tuvan">Tu van hoc tap</option>
+                    <option value="huongnghiep">Huong nghiep</option>
+                </select>
+            </div>
+            <label for="ghichu">Ghi chu:</label>
+            <textarea name="ghichu" id="ghichu" cols="20" rows="3" placeholder="Khong bat buoc"></textarea>
+        </fieldset>
+        <input type="submit" value="Dat lich">
+
+    </form>
+</body>
+</html>

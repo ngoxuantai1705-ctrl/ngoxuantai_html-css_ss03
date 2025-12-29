@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://example.com/submit" method="post">
+        <!--Tieu de form-->
+<h3>Them moi sinh vien</h3>
+
+        <!--Than form-->
+        <label for="hoten">Ho va ten:</label>
+        <input  id="hoten" type="text" placeholder="Ho va ten">
+        <br><br>
+        <label for="date">Ngay sinh</label>
+        <input  id="date" type="date" placeholder="Ngay sinh">
+        <br><br>
+        <label for="sex">Gioi tinh</label>
+        <input id="sex" type="radio" name="gender"/> Nam
+        <input id="sex" type="radio" name="gender"/> Nu
+        <input id="sex" type="radio" name="gender"> Khac
+        <br><br>
+        <label for="sothich">So thich:</label>
+        <input  id="sothich" type="checkbox" placeholder="So thich"> Da bong
+        <input id="sothich" type="checkbox" placeholder="So thich"> Bong ro
+        <input id="sothich" type="checkbox" placeholder="So thich"> Cau long
+        <input type="checkbox"> An
+        <br><br>
+        <label for="tinh">Tinh thanh:</label>
+        <select name="provide" id="provide">
+            <option value="hanoi">Ha Noi</option>
+            <option value="namdinh">Nam Dinh</option>
+            <option value="vinhphuc">Vinh Phuc</option>
+        </select>
+        <br><br>
+        <label for="note">Chu thich</label>
+        <textarea id="note " name="note"cols="30" rows="5" placeholder="Chu thich"></textarea>
+
+        <!--Chan form-->
+        <input type="submit">
+    </form>
+</body>
+</html>

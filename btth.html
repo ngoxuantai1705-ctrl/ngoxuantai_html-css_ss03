@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://taideptrai.com/submit" method="post">
+        <h1>Dang ki sinh vien moi</h1>
+        <fieldset>
+            <legend>Thong tin ca nhan</legend>
+            <div>
+                <label for="hoten">Ho va ten:</label>
+                <input type="text" id="hoten" placeholder="Ngo Xuan A">
+            
+            </div>
+            <div>
+            <label for="ngaysinh">Ngay sinh day du:</label>
+            <input type="date" id="ngaysinh">
+            </div>
+            <div>
+            <label for="nhaphoc">Thang va nam nhap hoc:</label>
+            <input type="month" id="nhaphoc">
+            </div>
+
+            <div>
+                <label for="thoigian">Thoi gian:</label>
+                <input type="time" id="thoigian">
+            </div>
+
+            <div>
+                <label for="sex">Gioi tinh:</label>
+                <input type="radio" id="sex"> Nam
+                <input type="radio" id="sex"> Nu
+                <input type="radio" id="sex"> Khac
+            </div>
+
+            <div>
+                <label for="mail">Email sinh vien</label>
+                <input type="text" id="mail">
+            </div>
+
+            <div>
+                <label for="password">Mat khau:</label>
+                <input type="password" id="password">
+            </div>
+        </fieldset>
+        <br>
+        <div>
+
+            <label for="goat">Muc tieu hoc tap</label>
+            <textarea name="note" id="goat" cols="20" rows="5" placeholder="Muc tieu"></textarea>
+        </div>
+        <div>
+            <select name="thanhpho" id="provide">
+                <option value="hanoi">Ha Noi</option>
+                <option value="danang">Da Nang</option>
+                <option value="hochiminh">Ho Chi Minh</option>
+            </select>
+        </div>
+        <div>
+            <label for="anhthe">Anhh the sinh vien</label>
+            <input type="file" id="anhthe">
+        </div>
+
+        <div>
+            <label for="monhoc">Mon hoc yeu thich:</label>
+            <input type="checkbox" id="monhoc"> Toan
+            <input type="checkbox" id="monhoc"> Lap trinh
+            <input type="checkbox" id="monhoc"> Tieng Anh
+            <input type="checkbox" id="monhoc"> Vat ly
+        </div>
+
+        <div>
+            <label for="tiendo">Tien do hoc tap:</label>
+            <input type="range" id="tiendo" min="0" max="10">
+        </div>
+
+        <div>
+            <label for="mausac">Mau sac yeu thich:</label>
+            <input type="color" id="mausac">
+        </div>
+
+        <div>
+            <label for="timkiem">Tim kiem khoa hoc:</label>
+            <input type="search" id="timkiem" placeholder="Nhap khoa hoc">
+        </div>
+
+        <div>
+            <input type="reset" value="Lam moi">
+            <input type="submit" value="Gui">
+            <input type="button" value="Huy">
+        </div>
+
+
+
+
+    </form>
+</body>
+</html>
